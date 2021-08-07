@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head" align="center">Test your luck!!!!Number guess</h1>
+    <div class="box"></div>
+    <div class="winner">
+        <h1 id="winner">winner</h1>
+    </div>
+    <div class="container">
+        
+
+<div class="ipminmax">
+    <input type="number" id="randMin" placeholder="min" min="1">
+    <input type="number" id="randMax" placeholder="max" min="2">
+</div>
+
+<h3 class="trials">No.of trials:<input type="number"min="1" id="trials"></h3>
+<div id="box1">
+    <input type="button" id="randomBtn" value="generate random value">
+</div>
+<div>
+<h1 class="trials">Player1 &nbsp;&nbsp; &nbsp;&nbsp;vs&nbsp;&nbsp;&nbsp; Player2</h1>
+
+<br><br>
+<div class="mainpart">
+<input type="number" id="player1Guess" placeholder="Guess input player1">
+<input type="number" id="player2Guess"placeholder="Guess input player2"><br>
+<input type="button" class="left" id="player1Btn" value="player1">
+<input type="button" class="right" id="player2Btn"value="player2">
+</div> 
+<input type="button" id="resetBtn" value="reset">
+</div>
+
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
