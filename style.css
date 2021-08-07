@@ -1,0 +1,77 @@
+body{
+  background:whitesmoke;
+  font: optional;
+  font-weight: bold;
+ 
+}
+
+.container{
+    padding: auto;
+    margin-left:30%;
+    margin-top: 10%;
+    background: cyan;
+    margin-right:20%;
+    padding: 0.5%;
+    
+}
+#randomBtn{
+    background:papayawhip;
+    font-size: 100%;
+}
+#randomBtn:hover{
+    background:red;
+    font-size: 100%;
+}
+.ipminmax{
+    padding: 1%;
+    text-align: center;
+}
+#player1Btn:hover{
+  background:yellowgreen;
+}
+#player2Btn:hover{
+  background:yellowgreen;
+}
+
+.box {
+    margin-left: 50%;
+    margin-right:40%;
+    background-color: rgb(6, 240, 84);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    animation-name: rotate;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+  }
+  #winner{
+    text-align: center;
+    margin-left: 8%;
+    margin-right:2% ;
+  }
+  
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+      background-color: red;
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #box1{
+      text-align: center;
+  }
+  .trials{
+    text-align: center;
+  }
+  .head{
+    margin-left: 8%;
+    font-size:xx-large
+  }
+  .mainpart{
+    align-content: center;
+    text-align: center;
+  }
+ 
